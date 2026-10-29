@@ -7,7 +7,7 @@ sys.path.append(
     )
 )
 
-from calculator import *
+from calculator import calculator
 
 def test_add():
     assert add(10,20)==30
